@@ -1,0 +1,21 @@
+#install numpy and scipy
+pip install numpy
+pip install scipy
+
+#install lightfm
+pip install lightfm
+
+
+#Lightfm istallation logs
+# Collecting lightfm
+#   Downloading lightfm-1.12.tar.gz (246kB)
+#     100% |################################| 256kB 886kB/s 
+# Requirement already satisfied: numpy in /home/bigdata/anaconda2/lib/python2.7/site-packages (from lightfm)
+# Requirement already satisfied: scipy>=0.17.0 in /home/bigdata/anaconda2/lib/python2.7/site-packages (from lightfm)
+# Requirement already satisfied: requests in /home/bigdata/anaconda2/lib/python2.7/site-packages (from lightfm)
+# Building wheels for collected packages: lightfm
+#   Running setup.py bdist_wheel for lightfm ... - \ | / - done
+#   Stored in directory: /home/bigdata/.cache/pip/wheels/0e/9a/7e/227bd20ad296bada5dba31287dba3db2574af72b9b273026aa
+# Successfully built lightfm
+# Installing collected packages: lightfm
+# Successfully installed lightfm-1.12
